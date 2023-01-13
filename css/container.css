@@ -1,0 +1,120 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  #container {
+    flex-direction: column;
+  }
+}
+#container main {
+  width: 65%;
+}
+@media (max-width: 767px) {
+  #container main {
+    width: 100%;
+  }
+}
+#container main article {
+  margin-bottom: 80px;
+}
+#container main article h2 {
+  font-size: 1.5rem;
+  margin: 10px 0 15px 0;
+}
+#container main article .readmore {
+  font-size: 0.875rem;
+  text-align: center;
+}
+#container main article .readmore a {
+  padding-bottom: 1px;
+  color: #333;
+  position: relative;
+}
+#container main article .readmore a::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  transition: all 200ms ease;
+}
+#container main ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+#container main li {
+  font-size: 0.875rem;
+  margin-right: 20px;
+}
+#container main p {
+  padding: 10px 40px 30px 40px;
+}
+#container aside {
+  width: 33%;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  #container aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+#container aside .author {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#container aside .author img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+#container aside .author h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#container aside .author p {
+  font-size: 0.875rem;
+  text-align: left;
+}
+#container aside .archive {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#container aside .archive h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#container aside .archive ul {
+  border-bottom: solid 1px #777;
+}
+#container aside .archive li {
+  font-size: 0.875rem;
+  border-top: solid 1px #777;
+  padding: 20px;
+  text-align: left;
+}
+#container .ranking {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#container .ranking h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#container .ranking article {
+  margin-bottom: 30px;
+}
+#container .ranking h4 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  text-align: left;
+}/*# sourceMappingURL=container.css.map */

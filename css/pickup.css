@@ -1,0 +1,50 @@
+#pickup {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  #pickup {
+    flex-direction: column;
+    padding-top: 140px;
+  }
+}
+#pickup article {
+  width: 32%;
+}
+@media (max-width: 767px) {
+  #pickup article {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+#pickup article h2 {
+  font-size: 1rem;
+  margin: 10px 0 15px 0;
+}
+#pickup .readmore {
+  font-size: 0.875rem;
+  text-align: center;
+}
+#pickup .readmore a {
+  padding-bottom: 1px;
+  color: #333;
+  position: relative;
+}
+#pickup .readmore a::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  transition: all 200ms ease;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}/*# sourceMappingURL=pickup.css.map */

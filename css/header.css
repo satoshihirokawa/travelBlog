@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+}
+header h1 {
+  padding: 20px 16px;
+  line-height: 1px;
+}
+@media (max-width: 767px) {
+  header h1 {
+    padding: 20px 16px;
+  }
+}
+header h1 a {
+  display: inline-block;
+}
+header nav {
+  background-color: #333;
+}
+header ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+header li {
+  font-size: 0.875rem;
+  padding: 10px 60px 10px 0;
+}
+header li a {
+  color: white;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}/*# sourceMappingURL=header.css.map */

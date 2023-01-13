@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+
+  h1 {
+    padding: 20px 16px;
+    line-height: 1px;
+
+    @media(max-width: 767px) {
+      padding: 20px 16px;
+    }
+
+    a {
+      display: inline-block;
+    }
+  }
+
+  nav {
+    background-color: #333;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  li {
+    font-size: 0.875rem;
+    padding: 10px 60px 10px 0;
+
+    a {
+      color: white;
+    }
+  }
+  
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
